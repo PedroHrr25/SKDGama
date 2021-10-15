@@ -36,9 +36,12 @@ padding: 10px 0;
 }
 
 .hero{
-    background-image: url('./background.png');
+    background-image: url('Group\ 294.png');
     padding-top: 90px;
     padding-bottom:  70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .hero__bloco {
@@ -52,7 +55,24 @@ padding: 10px 0;
 
 .hero__imagem{
     margin: 0 auto;
+    padding-bottom: 85px;
+
 }
+
+.hero__{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150%;
+    /* or 45px */
+    
+    text-align: center;
+    
+    /* Brand/Primary/Branco */
+    
+    color: #F6FDFF;
+    }
 
 .hero__store-link {
     border: 1px solid #F6FDFF;
@@ -84,10 +104,6 @@ padding: 10px 60px;
     margin-left: 20px;
 }
 
-.hero__store-text2{
-
-}
-
 .hero__store-linkcontainer{
    display: flex; /* para por os 2 filhos na mesma linha */ 
    justify-content: center;
@@ -95,4 +111,34 @@ padding: 10px 60px;
 
 .hero__store-link-imagem{
     margin-right: 10px;
+    
+}
+
+.hero__button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding:113px 51px 53px 50px;
+}
+
+.hero__2-h2{
+    font-size: 56px;
+    padding-left: 10px;
+    color: #F6FDFF;
+}
+
+.hero__2-p{
+    color: #F6FDFF;
+    padding-left: 10px;
+    font-size: 32px;
+
+}
+
+.hero__2{
+    background-color: #3F4243;
 }
