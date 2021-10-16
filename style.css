@@ -94,6 +94,8 @@ padding: 10px 60px;
     line-height: 150%;
     color: #ffffff;
     margin: 0;
+    
+    
 }
 
 .hero__store-text2{
@@ -328,6 +330,7 @@ padding: 10px 60px;
     line-height: 150%;
     color: #15B4BE;
     margin: 0;
+    text-decoration:none;
 }
 
 .hero__store-text22{
@@ -336,6 +339,7 @@ padding: 10px 60px;
     line-height: 150%;
     margin: 0;
     margin-left: 20px;
+    text-decoration:none
 }
 
 .hero__store-linkcontainer2{
