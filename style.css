@@ -132,6 +132,7 @@ padding: 10px 60px;
     color: #F6FDFF;
     padding-top: 32px;
     line-height: 150%;
+    padding-bottom: 80px;
 }
 
 .hero__2-p{
@@ -173,6 +174,7 @@ top: 2311px;
     padding-top: 32px;
     padding-left: 150px;
     margin-top: 0px;
+    padding-bottom: 50px;
 }
 
 .hero__3-cards{
@@ -270,6 +272,7 @@ text-align: center;
 /* Brand/Primary/Branco */
 
 color: #F6FDFF;
+padding-bottom: 100px;
 
 }
 
@@ -282,6 +285,7 @@ color: #F6FDFF;
     width: 547px;
 height: 530.77px;
 left: 140px;
+margin-bottom: 100px;
 
 }
 .hero__4-card2{
@@ -294,7 +298,7 @@ left: 140px;
     width: 547px;
 height: 530.77px;
 left: 140px;
-
+margin-bottom: 100px;
 }
 
 .hero__4-cards{
@@ -404,4 +408,31 @@ input {
 .ulflex{
     display: flex;
     padding: 10px;
+}
+
+.h4cards{
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+/* identical to box height, or 54px */
+
+display: flex;
+align-items: center;
+}
+
+.pcards{
+    font-weight: 600;
+font-size: 36px;
+line-height: 150%;
+/* or 54px */
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.separador{
+    padding: 30px 30px;
+    background: linear-gradient(145.24deg, #14AAB3 -0.14%, #14B396 99.81%);
 }
