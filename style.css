@@ -128,17 +128,280 @@ padding: 10px 60px;
 
 .hero__2-h2{
     font-size: 56px;
-    padding-left: 10px;
+    padding-left: 150px;
     color: #F6FDFF;
+    padding-top: 32px;
+    line-height: 150%;
 }
 
 .hero__2-p{
     color: #F6FDFF;
-    padding-left: 10px;
+    padding-left: 150px;
     font-size: 32px;
 
 }
 
 .hero__2{
     background-color: #3F4243;
+    padding-bottom: 104px;
+    margin-top: -10px;
+
+}
+
+.hero__3{
+    background-color: #1E2121;
+  
+height: 900px;
+left: -11px;
+top: 2311px;
+    
+}
+
+.hero__3-h2{
+    color: #f6fdff;
+    font-size: 56px;
+    line-height: 150%;
+    padding-top: 32px;
+    padding-left: 150px;
+    margin-top: 0px;
+}
+
+.hero__3-p{
+    color: #f6fdff;
+    font-size: 32px;
+    line-height: 150%;
+    padding-top: 32px;
+    padding-left: 150px;
+    margin-top: 0px;
+}
+
+.hero__3-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.hero__3-card1{
+    
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 40px;
+    padding: 10px 60px;
+    background-color: #C6794D;
+    width: 547px;
+height: 530.77px;
+left: 140px;
+    
+}
+
+.hero__3-imagem{
+    padding: 20px 60px ;
+    display: flex;
+    
+}
+
+.hero__3-imagem-separator{
+    margin-left: 20PX;
+    margin-right: 20px;
+}
+
+ul{
+    display:inline;
+    padding: 10px;
+    margin-bottom: px;
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+align-items: center;
+
+
+}
+
+.hero__3-span{
+    font-size: 48px;
+line-height: 150%;
+
+
+}
+
+.hero__3-button-card{
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 40px;
+    background: linear-gradient(145.24deg, #F6FDFF -0.14%, #14B396 99.81%);
+    
+    padding: 20px 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+text-align: center;
+
+/* Brand/Primary/Branco */
+
+color: #F6FDFF;
+text-decoration: none;
+margin: 0px 90px ;
+margin-top: 40px;
+
+}
+
+.hero__4{
+    background-color: #3F4243;
+ 
+}
+
+.hero__4-h2{
+    font-weight: 600;
+font-size: 100px;
+line-height: 150%;
+/* identical to box height, or 150px */
+
+text-align: center;
+
+/* Brand/Primary/Branco */
+
+color: #F6FDFF;
+
+}
+
+.hero__4-card1{
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 40px;
+    padding: 10px 60px;
+    background-color: #15B4BE;
+    width: 547px;
+height: 530.77px;
+left: 140px;
+
+}
+.hero__4-card2{
+    
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 40px;
+    padding: 10px 60px;
+    background-color: #7B4DC6;
+    width: 547px;
+height: 530.77px;
+left: 140px;
+
+}
+
+.hero__4-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero__store-link2 {
+    border: 1px solid #15B4BE;
+box-sizing: border-box;
+border-radius: 4px;
+display: flex;
+align-items: center;
+margin-right: 40px;
+padding: 10px 60px;
+
+}
+.hero__store-link2:last-child {
+    margin: 0;
+    
+}
+
+.hero__store-text12{
+    font-size: 15px;
+    line-height: 150%;
+    color: #15B4BE;
+    margin: 0;
+}
+
+.hero__store-text22{
+    color: #15B4BE;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.hero__store-linkcontainer2{
+   display: flex; /* para por os 2 filhos na mesma linha */ 
+   justify-content: center;
+}
+
+.hero__store-link-imagem2{
+    margin-right: 10px;
+    
+}
+
+.hero__5{
+    background: linear-gradient(91.27deg, #F6FDFF 0%, #E6E9EA 100%);
+    padding: 30px 30px;
+}
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    box-sizing: border-box;
+    }
+
+.bg-modal{
+    width: 100vw;
+    background-color: rgba(0, 0,0,0.7);
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 10000;
+    left: 0;
+
+}
+
+ .bg-modal.mostrar{
+    display: flex;
+}
+
+.modal-content{
+    width: 500px;
+    height: 300px;
+    background-color: #3F4243;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20xp;
+}
+
+input {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+.close{
+    position: absolute;
+    right: 14px;
+    top: 0;
+    transform: rotate(45deg);
+    font-size: 200px;
+    cursor: pointer;
+}
+
+.ulflex{
+    display: flex;
+    padding: 10px;
 }

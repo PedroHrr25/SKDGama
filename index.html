@@ -7,7 +7,8 @@
     <title>A Basic HTML5 Template</title>
     <meta name="description" content="A simple HTML5 Template for new projects.">
     <meta name="author" content="SitePoint">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -51,13 +52,15 @@
         </a>
       </div>
       <div class="hero__store-linkcontainer">
-        <a class="hero__store-link" href="#">
+        <a class="hero__store-link" href="https://www.apple.com/">
           <img class="hero__store-link-imagem" src="logo appple.png" alt="apple logo">
            <div><p class="hero__store-text1">Baixe na</p>
                 <p class="hero__store-text2">App Store</p>
             </div>
         </a>
-        <a class="hero__store-link" href="#">
+        <a class="hero__store-link" href="
+        https://play.google.com/store
+        ">
           <img src="logo Appstore.png" alt="google play store logo">
           <div><p class="hero__store-text1">Baixe na</p>
             <p class="hero__store-text2">Play Store</p>
@@ -74,35 +77,35 @@
           SKDT veio para transformar a maneira de capacitar pessoas na área de Design e Programação,
           com metodologias baseadas em situações reais do dia a dia das empresas. E contribuir com
           a parceria entre Designer e Pessoa Desenvolvedora na criação de novos projetos
-        </p>
-      </div>
-      <div>
-        <h2>Nossos cursos</h2>
-        <p>Escolha sua trilha, aprenda do seu jeito, no seu tempo e crie sua carreira</p>
-        <div>
-          <div>
-            <div>
+        </p> 
+      </div><!-- parte 2-->
+      <div class="hero__3">
+        <h2 class="hero__3-h2">Nossos cursos</h2>
+        <p class="hero__3-p">Escolha sua trilha, aprenda do seu jeito, no seu tempo e crie sua carreira</p>
+        <div class="hero__3-cards">
+          <div class="hero__3-card1">
+            <div class="hero__3-imagem">
               <img src="VectorBranco.png">
-              <img src="Simbolo1.png">
-              <span>Dev</span>
+              <img class="hero__3-imagem-separator" src="Simbolo1.png">
+              <span class="hero__3-span">Dev</span>
             </div>
-            <ul>
+            <ul class="hero__3-list">
               <li>React</li>
               <li>Python</li>
               <li>Back-End</li>
               <li>Front-End</li>
             </ul>
             <div>
-              <a href="#">
+              <a class="hero__3-button-card" href="#">
                 Iniciar Trilha
               </a>
             </div>
           </div>
-          <div>
-            <div>
+          <div class="hero__3-card1">
+            <div class="hero__3-imagem">
               <img src="VectorBranco.png">
-              <img src="Simbolo2.png">
-              <span>Design</span>
+              <img class="hero__3-imagem-separator" src="Simbolo2.png">
+              <span class="hero__3-span">Design</span>
             </div>
             <ul>
               <li>UI Design</li>
@@ -111,48 +114,90 @@
               <li>Metodologias Ágeis</li>
             </ul>
             <div>
-              <a href="#">
+              <a  class="hero__3-button-card" href="#">
                 Iniciar Trilha
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div><!-- Separador --></div>
       <div>
-        <h2>Planos</h2>
-        <div>
+          <!-- Separador --></div>
+      <div class="hero__4">
+        <h2 class="hero__4-h2">Planos</h2>
+    <div class="hero__4-cards">
+        <div class="hero__4-card1">
           <div>
             <h4>Assinatura anual</h4>
-            <p>R$ 399,99</p>
-            <p>Em até 12x de R$ 60,00</p>
+            <p>R$ 999,99</p>
+            <p>Em até 12x de R$ 83,33</p>
           </div>
           <ul>
             <li>Acesso a aulas</li>
             <li>Desafios na plataforma</li>
           </ul>
-        </div>
-        <div>
           <div>
-            <h4>Assinatura anual</h4>
+            <a id="button" class="hero__3-button-card" href="#">
+              Iniciar Trilha
+            </a>
+          </div>
+        </div>
+        <div class="hero__4-card2">
+          <div>
+            <h4>Compre uma habilidade</h4>
             <p>R$ 399,99</p>
             <p>Em até 12x de R$ 60,00</p>
           </div>
           <ul>
-            <img src="ok.png" alt=""><li>Acesso a aulas</li>
-            <img src="ok.png" alt=""><li>Desafios na plataforma</li>
+            <div class="ulflex"><img src="ok.png" alt=""><li>Acesso a aulas</li></div>
+            <div class="ulflex"><img src="ok.png" alt=""><li>Desafios na plataforma</li></div>
           </ul>
-        </div>
-        <div>
-            <h4>Compre uma aula</h4>
-            <p>R$ 103,99</p>
-            <p>Em até 12x de R$ 60,00</p>
+          <div>
+            <a class="hero__3-button-card" href="#">
+              Iniciar Trilha
+            </a>
           </div>
-          <ul>
-            <img src="ok.png" alt=""><li>Acesso aos cursos de uma trilha da plataforma</li>
-            
-          </ul>
         </div>
-      </div>
+
+    </div>
+          </div>
+
+          <div class="hero__5"> 
+          <div class="hero__store-linkcontainer2">
+            <a class="hero__store-link2" href="https://www.apple.com/">
+              <img class="hero__store-link-imagem2" src="applegreen.png" alt="apple logo">
+               <div><p class="hero__store-text12">Baixe na</p>
+                    <p class="hero__store-text22">App Store</p>
+                </div>
+            </a>
+            <a class="hero__store-link2" href="
+            https://play.google.com/store
+            ">
+              <img src="applegreen.png" alt="google play store logo">
+              <div><p class="hero__store-text12">Baixe na</p>
+                <p class="hero__store-text22">Play Store</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <section>
+            <div class="hero25">
+                <div class="hero-content">
+                    <a href="" id="button" class="button">Se inscreva</a>
+                </div>
+            </div>
+        </section>
+        <!--popup-->
+       <!-- <button id="Button"> Se inscreva</button>
+        <div class="bg-modal">
+            <div class="modal-content">
+                <img src="VectorBranco.png" alt="">
+                <form action="">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Telefone">
+                </form>
+            </div>
+        </div> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js%22%3E"></script>
   </body>
 </html>
